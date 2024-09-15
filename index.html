@@ -125,25 +125,28 @@
       </div>
     </div>
 
-    <!-- Color Input -->
+    <!-- File Input -->
     <div class="col-md-4">
-      <div class="card mb-4">
-        <div class="card-body">
-          <h5 class="card-title">Color Input</h5>
-          <p><strong>Type:</strong> color | <strong>Class:</strong> form-control form-control-color</p>
-          <div class="mb-3">
-            <input type="color" class="form-control form-control-color">
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">File Input</h5>
+            <p><strong>Type:</strong> file | <strong>Class:</strong> form-control</p>
+            <div class="mb-3">
+              <input type="file" class="form-control">
+            </div>
+            <button class="btn btn-primary mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#codeBlock3" aria-expanded="false" aria-controls="codeBlock">
+              Kód Megjelenítése
+            </button>
+          <div class="collapse" id="codeBlock3">
+              <pre wrap="wrap">&lt;input type="file" class="form-control"&gt;</pre>
+            </div>
+            
           </div>
-          <button class="btn btn-primary mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#codeBlock5" aria-expanded="false" aria-controls="codeBlock">
-            Kód Megjelenítése
-          </button>
-        <div class="collapse" id="codeBlock5">
-            <pre wrap="wrap">&lt;input type="color" class="form-control form-control-color"&gt;</pre>
-          </div>
-          
         </div>
       </div>
-    </div>
+  
+
+    
 
     <!-- Range Input -->
     <div class="col-md-4">
@@ -165,26 +168,7 @@
       </div>
     </div>
 
-    <!-- File Input -->
-    <div class="col-md-4">
-      <div class="card mb-4">
-        <div class="card-body">
-          <h5 class="card-title">File Input</h5>
-          <p><strong>Type:</strong> file | <strong>Class:</strong> form-control</p>
-          <div class="mb-3">
-            <input type="file" class="form-control">
-          </div>
-          <button class="btn btn-primary mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#codeBlock3" aria-expanded="false" aria-controls="codeBlock">
-            Kód Megjelenítése
-          </button>
-        <div class="collapse" id="codeBlock3">
-            <pre wrap="wrap">&lt;input type="file" class="form-control"&gt;</pre>
-          </div>
-          
-        </div>
-      </div>
-    </div>
-
+    
     <!-- Checkbox Input -->
     <div class="col-md-4">
       <div class="card mb-4">
@@ -192,8 +176,12 @@
           <h5 class="card-title">Checkbox Input</h5>
           <p><strong>Type:</strong> checkbox | <strong>Class:</strong> form-check-input</p>
           <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="checkboxInput">
-            <label class="form-check-label" for="checkboxInput">Pipáld ki!</label>
+            <input type="checkbox" class="form-check-input" id="checkboxInput1">
+            <label class="form-check-label" for="checkboxInput1">Pipáld ki!</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="checkboxInput2">
+            <label class="form-check-label" for="checkboxInput2">Ezt is!</label>
           </div>
           <button class="btn btn-primary mb-3 mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#codeBlock2" aria-expanded="false" aria-controls="codeBlock">
             Kód Megjelenítése
@@ -229,6 +217,26 @@
         </div>
       </div>
     </div>
+
+    <!-- Color Input -->
+    <div class="col-md-4">
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">Color Input</h5>
+            <p><strong>Type:</strong> color | <strong>Class:</strong> form-control form-control-color</p>
+            <div class="mb-3">
+              <input type="color" class="form-control form-control-color">
+            </div>
+            <button class="btn btn-primary mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#codeBlock5" aria-expanded="false" aria-controls="codeBlock">
+              Kód Megjelenítése
+            </button>
+          <div class="collapse" id="codeBlock5">
+              <pre wrap="wrap">&lt;input type="color" class="form-control form-control-color"&gt;</pre>
+            </div>
+            
+          </div>
+        </div>
+      </div>
 </div>
 
 <!-- Bootstrap 5 JS -->
